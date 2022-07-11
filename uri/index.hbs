@@ -1,0 +1,13 @@
+<!-- index.hbs -->
+{{!< default}}
+
+<main role="main">
+<!-- This is the post loop - each post will be output using this markup -->
+  {{#foreach posts}}
+	{{> post_cards}}
+  {{/foreach}}
+
+</main>
+
+<!-- Previous/next page links - displayed on every page -->
+{{pagination}}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta_title}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{{asset 'css/style.css'}}">
+    {{ghost_head}}
+</head>
+<body>
+<article>
+    {{!-- Header --}}
+
+    {{> header}}
+
+    {{!-- body --}}
+    {{{body}}}
+
+    {{!-- Footer --}}
+    {{> footer}}
+
+    {{ghost_foot}}
+</article>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="{{asset 'js/main.js'}}"></script>
+</body>
+</html>
