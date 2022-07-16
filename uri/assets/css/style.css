@@ -1,13 +1,23 @@
+h1{
+    color: var(--heading-color);
+}
+h2,h3{
+    color: var(--sub-heading-color);
+}
+p{
+    color: var(--text-color);
+}
 /* Menu css */
 header.brand h1 {
     margin: 0;
     font-weight: 400;
-    color: rgba(65, 70, 75, 1);
+    color: var(--heading-color);
+     /* color: var(--ghost-accent-color); */
 }
 header.brand h2 {
     margin: 0;
     padding-top: 0rem;
-    color: rgba(100, 105, 110, 1);
+    color: var(--sub-heading-color);
 }
 .navbar-menu ul {
     list-style: none;
@@ -138,4 +148,33 @@ footer.footer a{
     color: rgba(65, 70, 75, 1);
     text-decoration: none;
     background: transparent;
+}
+/* Custom element Design */
+a.kg-btn {
+    background: var(--button-color);
+    color: var(--button-text-color);
+    padding: 0px 32px;
+    text-shadow: none;
+    border-radius: 8px;
+    height: 46px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+a.kg-btn:hover {
+    background: var(--button-hover-color);
+    color: var(--button-hover-text-color);
+}
+img.kg-image {
+    border-radius: 20px;
+}
+.gh-portal-triggerbtn-container{
+    background: var(--button-color);
+    color: var(--button-text-color);
+}
+a.post-card-image-link img {
+    height: 400px;
+    width: 50%;
+    border-radius: 20px;
+    object-fit: cover;
 }

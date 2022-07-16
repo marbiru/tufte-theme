@@ -5,17 +5,89 @@
     "engines": {
         "ghost" : ">=1.0.0"
     },
+    "license": "MIT",
     "author": {
-        "name": "Ayush Junejs",
-        "email": "onlyprongramming@gmail.com"
-    },
-    "config": {
-        "posts_per_page" : 3
+        "name": "Ghost Foundation",
+        "email": "hello@ghost.org",
+        "url": "https://ghost.org"
     },
     "keywords": [
         "ghost",
         "theme",
         "ghost-theme"
     ],
-    "card_assets": false
+    "config": {
+        "posts_per_page": 12,
+        "image_sizes": {
+            "xs": {
+                "width": 150
+            },
+            "s": {
+                "width": 300
+            },
+            "m": {
+                "width": 720
+            },
+            "l": {
+                "width": 960
+            },
+            "xl": {
+                "width": 1200
+            },
+            "xxl": {
+                "width": 2000
+            }
+        },
+        "card_assets": true,
+        "custom": {
+            "github_link": {
+                "type": "text",
+                "default": "https://podcasts.apple.com/"
+            },
+            "twitter_link": {
+                "type": "text",
+                "default": "https://podcasts.google.com/"
+            },
+            "mial": {
+                "type": "text",
+                "default": "test@gmail.com"
+            },
+            "stack_overflow_link": {
+                "type": "text",
+                "default": "https://podcasts.google.com/"
+            },
+            "fotter_copyright_text":{
+                "type": "text",
+                "default": "All Right Reserved."
+            },
+            "button_color":{
+                "type": "color",
+                "default": "#000000"
+            },
+            "button_text_color":{
+                "type": "color",
+                "default": "#ffffff"
+            },
+            "button_hover_color":{
+                "type": "color",
+                "default": "#000000"
+            },
+            "button_hover_text_color":{
+                "type": "color",
+                "default": "#ffffff"
+            },
+            "heading_color":{
+                "type": "color",
+                "default": "#43ff64d9"
+            },
+            "sub_heading_color":{
+                "type": "color",
+                "default": "#64696e"
+            },
+            "text_color":{
+                "type": "color",
+                "default": "#111111"
+            }
+        }
+    }
 }

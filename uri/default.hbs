@@ -9,6 +9,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="{{asset 'css/style.css'}}">
     {{ghost_head}}
+    <style>
+    :root {
+        {{#if @custom.button_color}}
+        --button-bg-color: {{@custom.button_color}};
+        {{/if}}
+        {{#if @custom.heading_color}}
+        --heading-color: {{@custom.heading_color}};
+        {{/if}}
+        {{#if @custom.sub_heading_color}}
+        --sub-heading-color: {{@custom.sub_heading_color}};
+        {{/if}}
+        {{#if @custom.text_color}}
+        --text-color: {{@custom.text_color}};
+        {{/if}}
+        {{#if @custom.button_color}}
+        --button-color: {{@custom.button_color}};
+        {{/if}}
+        {{#if @custom.button_text_color}}
+        --button-text-color: {{@custom.button_text_color}};
+        {{/if}}
+        {{#if @custom.button_hover_color}}
+        --button-hover-color: {{@custom.button_hover_color}};
+        {{/if}}
+        {{#if @custom.button_hover_text_color}}
+        --button-hover-text-color: {{@custom.button_hover_text_color}};
+        {{/if}}
+    }
+</style>
 </head>
 <body>
 <article>
