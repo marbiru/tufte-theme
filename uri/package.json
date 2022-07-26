@@ -42,19 +42,19 @@
         "custom": {
             "github_link": {
                 "type": "text",
-                "default": "https://podcasts.apple.com/"
+                "default": ""
             },
             "twitter_link": {
                 "type": "text",
-                "default": "https://podcasts.google.com/"
+                "default": ""
             },
-            "mial": {
+            "mail": {
                 "type": "text",
-                "default": "test@gmail.com"
+                "default": ""
             },
             "stack_overflow_link": {
                 "type": "text",
-                "default": "https://podcasts.google.com/"
+                "default": ""
             },
             "fotter_copyright_text":{
                 "type": "text",
@@ -78,7 +78,7 @@
             },
             "heading_color":{
                 "type": "color",
-                "default": "#43ff64d9"
+                "default": "#41464b"
             },
             "sub_heading_color":{
                 "type": "color",
