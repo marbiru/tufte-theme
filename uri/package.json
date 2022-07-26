@@ -56,10 +56,6 @@
                 "type": "text",
                 "default": ""
             },
-            "fotter_copyright_text":{
-                "type": "text",
-                "default": "All Right Reserved."
-            },
             "button_color":{
                 "type": "color",
                 "default": "#000000"
